@@ -29,7 +29,9 @@ class Sprite {
 
     float getHeight(){return 2f * halfHeight; }
 
-    void update(GameCanvas gameCanvas, float deltaTime){}
+    @Override
+    public void update(GameCanvas gameCanvas, float deltaTime){}
 
-    void render(GameCanvas gameCanvas, Graphics g){}
+    @Override
+    public void render(GameCanvas gameCanvas, Graphics g){}
 }
